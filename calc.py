@@ -1,5 +1,5 @@
 import tkinter as tk
-
+from math import*
 def add_operation(operation):
     value=calc.get()
     if value[-1] in '-+/*':
